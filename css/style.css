@@ -52,7 +52,7 @@ img {
   
 }
 
-.main img {
+.main * {
   margin-bottom: 40px;
 }
 
@@ -62,7 +62,7 @@ img {
 
 .go_out_btn {
   width: 70%;
-
+  display: inline-block;
 }
 
 .subtitle {
@@ -73,9 +73,12 @@ img {
   .main {
     width: 100vw;
   }
-  .main img {
+  .main * {
     width: 60%;
     margin-bottom: 30px;
+  }
+  .go_out_btn {
+    
   }
   .side {
     display: none;
@@ -85,9 +88,12 @@ img {
 
 @media screen and (max-width: 500px) {
   
-  .main img {
+  .main * {
     width: 70%;
     margin-bottom: 20px;
+  }
+  .go_out_btn {
+  
   }
   
 }
